@@ -1,6 +1,9 @@
 # REC My Screen
 
-Develop for the [CS50 Final Project](https://cs50.harvard.edu/x/2020/project/#final-project)
+Develop for the [CS50 Final Project](https://cs50.harvard.edu/x/2020/project/#final-project).
+It is a simple application that runs in browser that allow us to capture or screen.
+
+This was based on the [Mozilla documentation](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element).
 
 ## Installation
 
