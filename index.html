@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REC My Screen</title>
+    <link rel="shortcut icon" href="favicon.ico" sizes="16x16" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section id="header">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="/"><img class="logo" src="logo.png"/></a>
+        <h1 class="title">REC My Screen</h1>
+      </nav>
+    </section>
+    <section id="main" class="main container">
+      <div class="btnsWrapper">
+        <div class="container" style="display: flex">
+          <button id="startBtn" type="button" class="btn btn-success">Start Recording</button>
+          <button id="stopBtn" type="button" class="btn btn-danger">Stop Recording</button>
+        </div>
+        <div class="container" style="display: flex">
+          <a id="downloadBtn" type="button" class="btn btn-info btn-download">Download</a>
+        </div>
+      </div>
+      <div class="preview" id="previewWrapper">
+        <video id="preview" autoplay width="100%" height="100%" controls></video>
+        <video id="recording" width="0" height="0"></video>
+      </div>
+    </section>
+  </body>
+  <script src="index.js"></script>
+</html>

@@ -1,0 +1,42 @@
+.navbar {
+  background-color: whitesmoke;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.title {
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1;
+  margin-top: 20px;
+  width: 90%;
+  height: 750px;
+}
+
+.btnsWrapper {
+  flex: 1;
+  background-color: whitesmoke;
+  padding: 15px;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.btn {
+  flex: 1;
+  margin: 5px;
+}
+
+.btn-download {
+  color: white !important;
+}
+
+.preview {
+  margin-top: 25px;
+  height: 80%;
+}
