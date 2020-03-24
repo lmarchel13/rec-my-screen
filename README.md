@@ -5,6 +5,8 @@ It is a simple application that runs in browser that allow us to capture or scre
 
 This was based on the [Mozilla documentation](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element).
 
+Demo: https://rec-my-screen.herokuapp.com/
+
 ## Installation
 
 To install this project, just run
